@@ -12,6 +12,7 @@ import {
   HiFilm,
   HiShoppingBag,
   HiInformationCircle,
+  HiNewspaper
 } from "react-icons/hi";
 
 // Components
@@ -39,6 +40,7 @@ function Navbar() {
                   <NavbarButton href="/games" text="Jogos" BtnIcon={IoGameController}/>
                   <NavbarButton href="/shows" text="Séries" BtnIcon={HiFilm} />
                   <NavbarButton href="/store" text="Loja" BtnIcon={HiShoppingBag}/>
+                  <NavbarButton href="/blog" text="Blog" BtnIcon={HiNewspaper} />
                   <NavbarButton href="/about" text="Sobre Nós" BtnIcon={HiInformationCircle}/>
                 </div>
               </div>
@@ -117,6 +119,7 @@ function Navbar() {
               <HambugerMenuButton href='/games' text='Jogos' BtnIcon={IoGameController} />
               <HambugerMenuButton href='/shows' text='Séries' BtnIcon={HiFilm} />
               <HambugerMenuButton href='/store' text='Loja' BtnIcon={HiShoppingBag} />
+              <HambugerMenuButton href='/blog' text='Blog' BtnIcon={HiNewspaper} />
               <HambugerMenuButton href='/about' text='Sobre Nós' BtnIcon={HiInformationCircle} />
               </div>
             </div>

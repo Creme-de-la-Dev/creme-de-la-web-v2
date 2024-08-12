@@ -22,6 +22,9 @@ import Games from "./pages/Games";
 // Store
 import Store from "./pages/Store";
 
+// Blog
+import Blog from "./pages/Blog";
+
 // About
 import About from "./pages/About";
 
@@ -44,6 +47,7 @@ function App() {
           <Route path="/shows/cdlntv" element={<CDLNTV />} />
           <Route path="/games" element={<Games />} />
           <Route path="/store" element={<Store />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="games/lorax-kart/index.html" />
           <Route

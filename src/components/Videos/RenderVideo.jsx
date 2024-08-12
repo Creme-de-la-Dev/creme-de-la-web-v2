@@ -23,8 +23,7 @@ const RenderVideo = () => {
  }, [code]);
 
  const handleImageClick = () => {
-    // Directly set the video URL here if the image click is the trigger
-    setVideoUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); // Example URL, replace with your specific video URL
+    setVideoUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
  };
 
  return (
